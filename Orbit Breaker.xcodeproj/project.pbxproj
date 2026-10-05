@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3CC72CD30745C3100BE0F6F /* Orbit Breaker Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E3CC72CC30745C3100BE0F6F /* Orbit Breaker Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3CC72CE30745C3100BE0F6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3CC72C030745C3100BE0F6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3CC72CB30745C3100BE0F6F;
+			remoteInfo = "Orbit Breaker Watch App";
+		};
+		E3CC72DC30745C3200BE0F6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3CC72C030745C3100BE0F6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3CC72CB30745C3100BE0F6F;
+			remoteInfo = "Orbit Breaker Watch App";
+		};
+		E3CC72E630745C3200BE0F6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3CC72C030745C3100BE0F6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3CC72CB30745C3100BE0F6F;
+			remoteInfo = "Orbit Breaker Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E3CC72F230745C3200BE0F6F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E3CC72CD30745C3100BE0F6F /* Orbit Breaker Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E3CC72C630745C3100BE0F6F /* Orbit Breaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Orbit Breaker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3CC72CC30745C3100BE0F6F /* Orbit Breaker Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Orbit Breaker Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3CC72DB30745C3200BE0F6F /* Orbit Breaker Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Orbit Breaker Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3CC72E530745C3200BE0F6F /* Orbit Breaker Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Orbit Breaker Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E3CC72D030745C3100BE0F6F /* Orbit Breaker Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Orbit Breaker Watch App";
+			sourceTree = "<group>";
+		};
+		E3CC72DE30745C3200BE0F6F /* Orbit Breaker Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Orbit Breaker Watch AppTests";
+			sourceTree = "<group>";
+		};
+		E3CC72E830745C3200BE0F6F /* Orbit Breaker Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Orbit Breaker Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3CC72C930745C3100BE0F6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3CC72D830745C3200BE0F6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3CC72E230745C3200BE0F6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3CC72BF30745C3100BE0F6F = {
+			isa = PBXGroup;
+			children = (
+				E3CC72D030745C3100BE0F6F /* Orbit Breaker Watch App */,
+				E3CC72DE30745C3200BE0F6F /* Orbit Breaker Watch AppTests */,
+				E3CC72E830745C3200BE0F6F /* Orbit Breaker Watch AppUITests */,
+				E3CC72C730745C3100BE0F6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3CC72C730745C3100BE0F6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3CC72C630745C3100BE0F6F /* Orbit Breaker.app */,
+				E3CC72CC30745C3100BE0F6F /* Orbit Breaker Watch App.app */,
+				E3CC72DB30745C3200BE0F6F /* Orbit Breaker Watch AppTests.xctest */,
+				E3CC72E530745C3200BE0F6F /* Orbit Breaker Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3CC72C530745C3100BE0F6F /* Orbit Breaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3CC72F330745C3200BE0F6F /* Build configuration list for PBXNativeTarget "Orbit Breaker" */;
+			buildPhases = (
+				E3CC72C430745C3100BE0F6F /* Resources */,
+				E3CC72F230745C3200BE0F6F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3CC72CF30745C3100BE0F6F /* PBXTargetDependency */,
+			);
+			name = "Orbit Breaker";
+			packageProductDependencies = (
+			);
+			productName = "Orbit Breaker";
+			productReference = E3CC72C630745C3100BE0F6F /* Orbit Breaker.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		E3CC72CB30745C3100BE0F6F /* Orbit Breaker Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3CC72EF30745C3200BE0F6F /* Build configuration list for PBXNativeTarget "Orbit Breaker Watch App" */;
+			buildPhases = (
+				E3CC72C830745C3100BE0F6F /* Sources */,
+				E3CC72C930745C3100BE0F6F /* Frameworks */,
+				E3CC72CA30745C3100BE0F6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E3CC72D030745C3100BE0F6F /* Orbit Breaker Watch App */,
+			);
+			name = "Orbit Breaker Watch App";
+			packageProductDependencies = (
+			);
+			productName = "Orbit Breaker Watch App";
+			productReference = E3CC72CC30745C3100BE0F6F /* Orbit Breaker Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E3CC72DA30745C3200BE0F6F /* Orbit Breaker Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3CC72F630745C3200BE0F6F /* Build configuration list for PBXNativeTarget "Orbit Breaker Watch AppTests" */;
+			buildPhases = (
+				E3CC72D730745C3200BE0F6F /* Sources */,
+				E3CC72D830745C3200BE0F6F /* Frameworks */,
+				E3CC72D930745C3200BE0F6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3CC72DD30745C3200BE0F6F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E3CC72DE30745C3200BE0F6F /* Orbit Breaker Watch AppTests */,
+			);
+			name = "Orbit Breaker Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "Orbit Breaker Watch AppTests";
+			productReference = E3CC72DB30745C3200BE0F6F /* Orbit Breaker Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E3CC72E430745C3200BE0F6F /* Orbit Breaker Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3CC72F930745C3200BE0F6F /* Build configuration list for PBXNativeTarget "Orbit Breaker Watch AppUITests" */;
+			buildPhases = (
+				E3CC72E130745C3200BE0F6F /* Sources */,
+				E3CC72E230745C3200BE0F6F /* Frameworks */,
+				E3CC72E330745C3200BE0F6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3CC72E730745C3200BE0F6F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E3CC72E830745C3200BE0F6F /* Orbit Breaker Watch AppUITests */,
+			);
+			name = "Orbit Breaker Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "Orbit Breaker Watch AppUITests";
+			productReference = E3CC72E530745C3200BE0F6F /* Orbit Breaker Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3CC72C030745C3100BE0F6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2610;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					E3CC72C530745C3100BE0F6F = {
+						CreatedOnToolsVersion = 26.1.1;
+					};
+					E3CC72CB30745C3100BE0F6F = {
+						CreatedOnToolsVersion = 26.1.1;
+					};
+					E3CC72DA30745C3200BE0F6F = {
+						CreatedOnToolsVersion = 26.1.1;
+						TestTargetID = E3CC72CB30745C3100BE0F6F;
+					};
+					E3CC72E430745C3200BE0F6F = {
+						CreatedOnToolsVersion = 26.1.1;
+						TestTargetID = E3CC72CB30745C3100BE0F6F;
+					};
+				};
+			};
+			buildConfigurationList = E3CC72C330745C3100BE0F6F /* Build configuration list for PBXProject "Orbit Breaker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3CC72BF30745C3100BE0F6F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E3CC72C730745C3100BE0F6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3CC72C530745C3100BE0F6F /* Orbit Breaker */,
+				E3CC72CB30745C3100BE0F6F /* Orbit Breaker Watch App */,
+				E3CC72DA30745C3200BE0F6F /* Orbit Breaker Watch AppTests */,
+				E3CC72E430745C3200BE0F6F /* Orbit Breaker Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3CC72C430745C3100BE0F6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3CC72CA30745C3100BE0F6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3CC72D930745C3200BE0F6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3CC72E330745C3200BE0F6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3CC72C830745C3100BE0F6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3CC72D730745C3200BE0F6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3CC72E130745C3200BE0F6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3CC72CF30745C3100BE0F6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3CC72CB30745C3100BE0F6F /* Orbit Breaker Watch App */;
+			targetProxy = E3CC72CE30745C3100BE0F6F /* PBXContainerItemProxy */;
+		};
+		E3CC72DD30745C3200BE0F6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3CC72CB30745C3100BE0F6F /* Orbit Breaker Watch App */;
+			targetProxy = E3CC72DC30745C3200BE0F6F /* PBXContainerItemProxy */;
+		};
+		E3CC72E730745C3200BE0F6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3CC72CB30745C3100BE0F6F /* Orbit Breaker Watch App */;
+			targetProxy = E3CC72E630745C3200BE0F6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E3CC72ED30745C3200BE0F6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = HL6PP3M6AF;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E3CC72EE30745C3200BE0F6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = HL6PP3M6AF;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E3CC72F030745C3200BE0F6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HL6PP3M6AF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Orbit Breaker";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eddib17.Orbit-Breaker.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.1;
+			};
+			name = Debug;
+		};
+		E3CC72F130745C3200BE0F6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HL6PP3M6AF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Orbit Breaker";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eddib17.Orbit-Breaker.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.1;
+			};
+			name = Release;
+		};
+		E3CC72F430745C3200BE0F6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HL6PP3M6AF;
+				INFOPLIST_KEY_CFBundleDisplayName = "Orbit Breaker";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eddib17.Orbit-Breaker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E3CC72F530745C3200BE0F6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HL6PP3M6AF;
+				INFOPLIST_KEY_CFBundleDisplayName = "Orbit Breaker";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eddib17.Orbit-Breaker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3CC72F730745C3200BE0F6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HL6PP3M6AF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eddib17.Orbit-Breaker-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orbit Breaker Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Orbit Breaker Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.1;
+			};
+			name = Debug;
+		};
+		E3CC72F830745C3200BE0F6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HL6PP3M6AF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eddib17.Orbit-Breaker-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orbit Breaker Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Orbit Breaker Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.1;
+			};
+			name = Release;
+		};
+		E3CC72FA30745C3200BE0F6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HL6PP3M6AF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eddib17.Orbit-Breaker-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Orbit Breaker Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.1;
+			};
+			name = Debug;
+		};
+		E3CC72FB30745C3200BE0F6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HL6PP3M6AF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eddib17.Orbit-Breaker-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Orbit Breaker Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3CC72C330745C3100BE0F6F /* Build configuration list for PBXProject "Orbit Breaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3CC72ED30745C3200BE0F6F /* Debug */,
+				E3CC72EE30745C3200BE0F6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3CC72EF30745C3200BE0F6F /* Build configuration list for PBXNativeTarget "Orbit Breaker Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3CC72F030745C3200BE0F6F /* Debug */,
+				E3CC72F130745C3200BE0F6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3CC72F330745C3200BE0F6F /* Build configuration list for PBXNativeTarget "Orbit Breaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3CC72F430745C3200BE0F6F /* Debug */,
+				E3CC72F530745C3200BE0F6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3CC72F630745C3200BE0F6F /* Build configuration list for PBXNativeTarget "Orbit Breaker Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3CC72F730745C3200BE0F6F /* Debug */,
+				E3CC72F830745C3200BE0F6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3CC72F930745C3200BE0F6F /* Build configuration list for PBXNativeTarget "Orbit Breaker Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3CC72FA30745C3200BE0F6F /* Debug */,
+				E3CC72FB30745C3200BE0F6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3CC72C030745C3100BE0F6F /* Project object */;
+}
