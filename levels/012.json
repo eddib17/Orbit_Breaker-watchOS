@@ -1,0 +1,34 @@
+{
+  "id": 12,
+  "name": "Counter-Spin",
+  "world": 2,
+  "ballSpeed": 0.99,
+  "paddleArcDeg": 43,
+  "parSeconds": 95,
+  "powerUps": [
+    "WIDE",
+    "MULTI",
+    "SLOW",
+    "SHIELD"
+  ],
+  "rings": [
+    {
+      "radius": 0.3,
+      "sectors": 12,
+      "bricks": "AAAAAAAAAAAA",
+      "rotationDps": 20
+    },
+    {
+      "radius": 0.45,
+      "sectors": 16,
+      "bricks": "ABABABABABABABAB",
+      "rotationDps": -20
+    },
+    {
+      "radius": 0.6,
+      "sectors": 20,
+      "bricks": "AAAA.AAAA.AAAA.AAAA.",
+      "rotationDps": 10
+    }
+  ]
+}

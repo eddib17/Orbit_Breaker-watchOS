@@ -1,0 +1,36 @@
+{
+  "id": 48,
+  "name": "Blackout",
+  "world": 5,
+  "ballSpeed": 1.3,
+  "paddleArcDeg": 35,
+  "parSeconds": 85,
+  "powerUps": [
+    "WIDE",
+    "SLOW",
+    "SHIELD",
+    "SHRINK",
+    "FIRE",
+    "STICKY",
+    "LIFE"
+  ],
+  "dropChance": 0.07,
+  "darkness": 0.9,
+  "rings": [
+    {
+      "radius": 0.3,
+      "sectors": 12,
+      "bricks": "AGAGAGAGAGAG"
+    },
+    {
+      "radius": 0.45,
+      "sectors": 16,
+      "bricks": "AAAAAAAAAAAAAAAA"
+    },
+    {
+      "radius": 0.6,
+      "sectors": 20,
+      "bricks": "AAGAAAGAAAGAAAGAAAGA"
+    }
+  ]
+}

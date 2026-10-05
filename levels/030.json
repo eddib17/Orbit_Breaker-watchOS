@@ -1,0 +1,52 @@
+{
+  "id": 30,
+  "name": "Ironclad",
+  "world": 3,
+  "ballSpeed": 1.15,
+  "paddleArcDeg": 39,
+  "parSeconds": 75,
+  "powerUps": [
+    "FIRE",
+    "LASER",
+    "WIDE",
+    "MULTI"
+  ],
+  "dropChance": 0.05,
+  "cores": [
+    {
+      "hp": 14,
+      "radius": 0.12,
+      "phases": [
+        {
+          "atHp": 9,
+          "restoreShields": true
+        },
+        {
+          "atHp": 4,
+          "ringSpeedMultiplier": 1.5
+        }
+      ]
+    }
+  ],
+  "rings": [
+    {
+      "radius": 0.28,
+      "sectors": 10,
+      "bricks": "CECECECECE",
+      "rotationDps": 8,
+      "shield": true
+    },
+    {
+      "radius": 0.42,
+      "sectors": 14,
+      "bricks": "XCECXCECXCECXC",
+      "rotationDps": -8,
+      "shield": true
+    },
+    {
+      "radius": 0.56,
+      "sectors": 18,
+      "bricks": "AEAAEAAPAAEAAEAAPA"
+    }
+  ]
+}

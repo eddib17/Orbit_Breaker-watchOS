@@ -1,0 +1,36 @@
+{
+  "id": 49,
+  "name": "Echo",
+  "world": 5,
+  "ballSpeed": 1.31,
+  "paddleArcDeg": 35,
+  "parSeconds": 100,
+  "powerUps": [
+    "WIDE",
+    "SLOW",
+    "SHIELD",
+    "SHRINK",
+    "FIRE",
+    "STICKY",
+    "LIFE"
+  ],
+  "dropChance": 0.07,
+  "regenSeconds": 10,
+  "rings": [
+    {
+      "radius": 0.26,
+      "sectors": 8,
+      "bricks": "FRFRFRFR"
+    },
+    {
+      "radius": 0.4,
+      "sectors": 14,
+      "bricks": "GAGAGAGAGAGAGA"
+    },
+    {
+      "radius": 0.54,
+      "sectors": 18,
+      "bricks": "RAAFAARAAFAARAAFAA"
+    }
+  ]
+}

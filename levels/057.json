@@ -1,0 +1,53 @@
+{
+  "id": 57,
+  "name": "Twin Cores",
+  "world": 6,
+  "ballSpeed": 1.37,
+  "paddleArcDeg": 33,
+  "parSeconds": 130,
+  "powerUps": [],
+  "dropChance": 0.07,
+  "cores": [
+    {
+      "hp": 9,
+      "radius": 0.07,
+      "x": -0.15,
+      "phases": [
+        {
+          "atHp": 4,
+          "restoreShields": true
+        }
+      ]
+    },
+    {
+      "hp": 9,
+      "radius": 0.07,
+      "x": 0.15,
+      "phases": [
+        {
+          "atHp": 4,
+          "restoreShields": true
+        }
+      ]
+    }
+  ],
+  "rings": [
+    {
+      "radius": 0.38,
+      "sectors": 14,
+      "bricks": "BBBBBBBBBBBBBB",
+      "rotationDps": 15,
+      "shield": true
+    },
+    {
+      "radius": 0.54,
+      "sectors": 18,
+      "bricks": "AAXAAXAAXAAXAAXAAX"
+    },
+    {
+      "radius": 0.66,
+      "sectors": 22,
+      "bricks": "APAAAAAAAAAPAAAAAAAAAA"
+    }
+  ]
+}

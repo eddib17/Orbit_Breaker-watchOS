@@ -1,0 +1,40 @@
+{
+  "id": 23,
+  "name": "Powder Keg",
+  "world": 3,
+  "ballSpeed": 1.09,
+  "paddleArcDeg": 41,
+  "parSeconds": 45,
+  "powerUps": [
+    "WIDE",
+    "MULTI",
+    "SHIELD",
+    "SHRINK"
+  ],
+  "dropChance": 0.05,
+  "rings": [
+    {
+      "radius": 0.26,
+      "sectors": 8,
+      "bricks": "AAE.AAE."
+    },
+    {
+      "radius": 0.38,
+      "sectors": 12,
+      "bricks": "AAAE..AAAE..",
+      "offsetDeg": 30
+    },
+    {
+      "radius": 0.5,
+      "sectors": 16,
+      "bricks": "AAAAE...AAAAE...",
+      "offsetDeg": 60
+    },
+    {
+      "radius": 0.62,
+      "sectors": 20,
+      "bricks": "AAAAAE....AAAAAE....",
+      "offsetDeg": 90
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 5, "name": "Thick Skin", "world": 1,
+  "ballSpeed": 0.95, "paddleArcDeg": 44, "parSeconds": 130,
+  "rings": [
+    { "radius": 0.30, "sectors": 12, "bricks": "BBBBBBBBBBBB" },
+    { "radius": 0.45, "sectors": 16, "bricks": "ABABABABABABABAB" },
+    { "radius": 0.60, "sectors": 20, "bricks": "AAAAAAAAAAAAAAAAAAAA" }
+  ]
+}

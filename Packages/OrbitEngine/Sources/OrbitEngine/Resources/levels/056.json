@@ -1,0 +1,33 @@
+{
+  "id": 56,
+  "name": "Squeeze",
+  "world": 6,
+  "ballSpeed": 1.37,
+  "paddleArcDeg": 33,
+  "parSeconds": 65,
+  "powerUps": [
+    "WIDE"
+  ],
+  "dropChance": 0.07,
+  "paddleShrinkDps": 0.2,
+  "rings": [
+    {
+      "radius": 0.3,
+      "sectors": 12,
+      "bricks": "BBB...BBB...",
+      "offsetDeg": -45
+    },
+    {
+      "radius": 0.45,
+      "sectors": 16,
+      "bricks": "AAPA....AAPA....",
+      "offsetDeg": -45
+    },
+    {
+      "radius": 0.6,
+      "sectors": 20,
+      "bricks": "AAAAA.....AAAAA.....",
+      "offsetDeg": -45
+    }
+  ]
+}

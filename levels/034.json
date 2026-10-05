@@ -1,0 +1,41 @@
+{
+  "id": 34,
+  "name": "Event Horizon",
+  "world": 4,
+  "ballSpeed": 1.18,
+  "paddleArcDeg": 38,
+  "parSeconds": 115,
+  "powerUps": [
+    "WIDE",
+    "MULTI",
+    "SLOW",
+    "SHRINK",
+    "STICKY"
+  ],
+  "dropChance": 0.05,
+  "gravityWells": [
+    {
+      "x": 0,
+      "y": 0,
+      "strength": 0.1,
+      "pulseSeconds": 4
+    }
+  ],
+  "rings": [
+    {
+      "radius": 0.34,
+      "sectors": 12,
+      "bricks": "BBBBBBBBBBBB"
+    },
+    {
+      "radius": 0.5,
+      "sectors": 16,
+      "bricks": "AAAAAAAAAAAAAAAA"
+    },
+    {
+      "radius": 0.64,
+      "sectors": 22,
+      "bricks": "A.A.A.A.A.A.A.A.A.A.A."
+    }
+  ]
+}

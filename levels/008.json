@@ -1,0 +1,11 @@
+{
+  "id": 8, "name": "Bullseye", "world": 1,
+  "ballSpeed": 0.98, "paddleArcDeg": 42, "parSeconds": 155,
+  "powerUps": ["WIDE", "MULTI", "SHIELD", "SHRINK"],
+  "rings": [
+    { "radius": 0.24, "sectors": 8,  "bricks": "BBBBBBBB" },
+    { "radius": 0.36, "sectors": 12, "bricks": "AAAAAAAAAAAA" },
+    { "radius": 0.48, "sectors": 16, "bricks": "BBBBBBBBBBBBBBBB" },
+    { "radius": 0.60, "sectors": 20, "bricks": "AAAAPAAAAAAAAAPAAAAA" }
+  ]
+}

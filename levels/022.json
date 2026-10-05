@@ -1,0 +1,32 @@
+{
+  "id": 22,
+  "name": "Fortress",
+  "world": 3,
+  "ballSpeed": 1.08,
+  "paddleArcDeg": 41,
+  "parSeconds": 60,
+  "powerUps": [
+    "WIDE",
+    "MULTI",
+    "SHIELD",
+    "SHRINK"
+  ],
+  "dropChance": 0.05,
+  "rings": [
+    {
+      "radius": 0.3,
+      "sectors": 10,
+      "bricks": "BBBBBBBBBB"
+    },
+    {
+      "radius": 0.44,
+      "sectors": 16,
+      "bricks": "AAAAAAAAAAAAAAAA"
+    },
+    {
+      "radius": 0.62,
+      "sectors": 22,
+      "bricks": "XXXX..XXXX..XXXX..XXXX"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 54,
+  "name": "Labyrinth",
+  "world": 6,
+  "ballSpeed": 1.35,
+  "paddleArcDeg": 33,
+  "parSeconds": 225,
+  "powerUps": [],
+  "dropChance": 0.07,
+  "rings": [
+    {
+      "radius": 0.26,
+      "sectors": 8,
+      "bricks": "BBBBBBBB"
+    },
+    {
+      "radius": 0.38,
+      "sectors": 14,
+      "bricks": "XXXXXX.XXXXXX."
+    },
+    {
+      "radius": 0.5,
+      "sectors": 18,
+      "bricks": "XXXX..XXXXXXXX..XX",
+      "rotationDps": 8
+    },
+    {
+      "radius": 0.62,
+      "sectors": 22,
+      "bricks": "AAAAAAAAAAAAAAAAAAAAAA"
+    }
+  ]
+}

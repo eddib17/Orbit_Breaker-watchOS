@@ -1,0 +1,15 @@
+{
+  "id": 10, "name": "The Core", "world": 1,
+  "ballSpeed": 1.0, "paddleArcDeg": 42, "parSeconds": 75,
+  "powerUps": ["LASER", "FIRE", "WIDE", "MULTI"],
+  "cores": [ {
+    "hp": 6,
+    "radius": 0.13,
+    "phases": [ { "atHp": 3, "ringSpeedMultiplier": 1.6, "restoreShields": true } ]
+  } ],
+  "rings": [
+    { "radius": 0.30, "sectors": 12, "rotationDps": 10,  "shield": true, "bricks": "BBBBBBBBBBBB" },
+    { "radius": 0.46, "sectors": 16, "rotationDps": -14, "shield": true, "bricks": "ABABABABABABABAB" },
+    { "radius": 0.62, "sectors": 20, "bricks": "AAAPAAAAAAAAAPAAAAAA" }
+  ]
+}

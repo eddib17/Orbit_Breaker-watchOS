@@ -1,0 +1,34 @@
+{
+  "id": 19,
+  "name": "Lockstep",
+  "world": 2,
+  "ballSpeed": 1.05,
+  "paddleArcDeg": 42,
+  "parSeconds": 55,
+  "powerUps": [
+    "WIDE",
+    "MULTI",
+    "SLOW",
+    "SHIELD"
+  ],
+  "rings": [
+    {
+      "radius": 0.26,
+      "sectors": 10,
+      "bricks": "BBBBBBBBB.",
+      "rotationDps": 20
+    },
+    {
+      "radius": 0.4,
+      "sectors": 14,
+      "bricks": "AAAAAAAAAAAAA.",
+      "rotationDps": 40
+    },
+    {
+      "radius": 0.54,
+      "sectors": 18,
+      "bricks": "AAAAAAAAPAAAAAAAA.",
+      "rotationDps": 60
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": 55,
+  "name": "Supernova",
+  "world": 6,
+  "ballSpeed": 1.36,
+  "paddleArcDeg": 33,
+  "parSeconds": 100,
+  "powerUps": [],
+  "dropChance": 0.07,
+  "rings": [
+    {
+      "radius": 0.24,
+      "sectors": 8,
+      "bricks": "EEEEEEEE"
+    },
+    {
+      "radius": 0.36,
+      "sectors": 12,
+      "bricks": "CCECCECCECCE"
+    },
+    {
+      "radius": 0.48,
+      "sectors": 16,
+      "bricks": "CBBECBBECBBECBBE"
+    },
+    {
+      "radius": 0.6,
+      "sectors": 20,
+      "bricks": "BBCBEBBCBEBBCBEBBCBE"
+    }
+  ]
+}

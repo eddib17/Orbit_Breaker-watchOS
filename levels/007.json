@@ -1,0 +1,10 @@
+{
+  "id": 7, "name": "Gift Wrap", "world": 1,
+  "ballSpeed": 0.96, "paddleArcDeg": 43, "parSeconds": 125,
+  "powerUps": ["WIDE", "SLOW", "MULTI"],
+  "rings": [
+    { "radius": 0.30, "sectors": 12, "bricks": "AAPAAAPAAAPA" },
+    { "radius": 0.45, "sectors": 16, "bricks": "ABAPABAAABAPABAA" },
+    { "radius": 0.60, "sectors": 20, "bricks": "AAAAAAAAAAAAAAAAAAAA" }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": 33,
+  "name": "Slingshot",
+  "world": 4,
+  "ballSpeed": 1.17,
+  "paddleArcDeg": 38,
+  "parSeconds": 95,
+  "powerUps": [
+    "WIDE",
+    "MULTI",
+    "SLOW",
+    "SHRINK",
+    "STICKY"
+  ],
+  "dropChance": 0.05,
+  "gravityWells": [
+    {
+      "x": 0.2,
+      "y": 0,
+      "strength": 0.07
+    }
+  ],
+  "rings": [
+    {
+      "radius": 0.4,
+      "sectors": 14,
+      "bricks": "AAAAAAA......."
+    },
+    {
+      "radius": 0.56,
+      "sectors": 18,
+      "bricks": "BAAAAAAAB........."
+    },
+    {
+      "radius": 0.68,
+      "sectors": 22,
+      "bricks": "A.A.A.A.A.A.A.A.A.A.A."
+    }
+  ]
+}

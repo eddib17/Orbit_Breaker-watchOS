@@ -1,0 +1,43 @@
+{
+  "id": 58,
+  "name": "Chaos Theory",
+  "world": 6,
+  "ballSpeed": 1.38,
+  "paddleArcDeg": 32,
+  "parSeconds": 170,
+  "powerUps": [],
+  "dropChance": 0.07,
+  "gravityWells": [
+    {
+      "x": 0,
+      "y": 0,
+      "strength": 0.04,
+      "pulseSeconds": 5
+    }
+  ],
+  "darkness": 0.3,
+  "rings": [
+    {
+      "radius": 0.26,
+      "sectors": 8,
+      "bricks": "EGEGEGEG"
+    },
+    {
+      "radius": 0.38,
+      "sectors": 14,
+      "bricks": "WFAFAFAWFAFAFA",
+      "rotationDps": 15
+    },
+    {
+      "radius": 0.5,
+      "sectors": 18,
+      "bricks": "RAXRAXRAXRAXRAXRAX",
+      "rotationDps": -10
+    },
+    {
+      "radius": 0.62,
+      "sectors": 22,
+      "bricks": "APAAGAPAAGAPAAGAPAAGAP"
+    }
+  ]
+}

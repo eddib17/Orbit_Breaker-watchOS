@@ -1,0 +1,51 @@
+{
+  "id": 40,
+  "name": "Black Star",
+  "world": 4,
+  "ballSpeed": 1.23,
+  "paddleArcDeg": 37,
+  "parSeconds": 45,
+  "powerUps": [
+    "FIRE",
+    "LASER",
+    "WIDE",
+    "SHIELD"
+  ],
+  "dropChance": 0.05,
+  "cores": [
+    {
+      "hp": 15,
+      "radius": 0.12,
+      "phases": [
+        {
+          "atHp": 10,
+          "gravity": 0.06
+        },
+        {
+          "atHp": 4,
+          "gravity": 0.1,
+          "restoreShields": true
+        }
+      ]
+    }
+  ],
+  "rings": [
+    {
+      "radius": 0.3,
+      "sectors": 12,
+      "bricks": "BBBBBBBBBBBB",
+      "rotationDps": 15,
+      "shield": true
+    },
+    {
+      "radius": 0.46,
+      "sectors": 16,
+      "bricks": "AWAAAAAAAWAAAAAA"
+    },
+    {
+      "radius": 0.62,
+      "sectors": 20,
+      "bricks": "AAPAAAAAAAAPAAAAAAAA"
+    }
+  ]
+}

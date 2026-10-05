@@ -1,0 +1,30 @@
+{
+  "id": 15,
+  "name": "Split Decision",
+  "world": 2,
+  "ballSpeed": 1.02,
+  "paddleArcDeg": 43,
+  "parSeconds": 60,
+  "powerUps": [
+    "MULTI"
+  ],
+  "rings": [
+    {
+      "radius": 0.3,
+      "sectors": 10,
+      "bricks": "AAPAAAAPAA"
+    },
+    {
+      "radius": 0.45,
+      "sectors": 16,
+      "bricks": "AB..AB..AB..AB..",
+      "rotationDps": 10
+    },
+    {
+      "radius": 0.6,
+      "sectors": 20,
+      "bricks": "AAAAAPAAAAAAAAAPAAAA",
+      "rotationDps": -8
+    }
+  ]
+}

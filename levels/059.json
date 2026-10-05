@@ -1,0 +1,30 @@
+{
+  "id": 59,
+  "name": "Last Light",
+  "world": 6,
+  "ballSpeed": 1.39,
+  "paddleArcDeg": 32,
+  "parSeconds": 80,
+  "powerUps": [],
+  "dropChance": 0.07,
+  "darkness": 0.7,
+  "rings": [
+    {
+      "radius": 0.3,
+      "sectors": 12,
+      "bricks": "FGFGFGFGFGFG",
+      "rotationDps": 10
+    },
+    {
+      "radius": 0.46,
+      "sectors": 16,
+      "bricks": "CACACACACACACACA",
+      "rotationDps": -12
+    },
+    {
+      "radius": 0.62,
+      "sectors": 20,
+      "bricks": "GAAAGAAAGAAAGAAAGAAA"
+    }
+  ]
+}

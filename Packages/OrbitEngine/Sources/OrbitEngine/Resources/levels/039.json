@@ -1,0 +1,42 @@
+{
+  "id": 39,
+  "name": "Binary Star",
+  "world": 4,
+  "ballSpeed": 1.22,
+  "paddleArcDeg": 37,
+  "parSeconds": 90,
+  "powerUps": [
+    "WIDE",
+    "MULTI",
+    "SLOW",
+    "SHRINK",
+    "STICKY"
+  ],
+  "dropChance": 0.05,
+  "gravityWells": [
+    {
+      "x": -0.2,
+      "y": 0,
+      "strength": 0.05,
+      "pulseSeconds": 3
+    },
+    {
+      "x": 0.2,
+      "y": 0,
+      "strength": 0.05,
+      "pulseSeconds": 5
+    }
+  ],
+  "rings": [
+    {
+      "radius": 0.44,
+      "sectors": 16,
+      "bricks": "ABABABABABABABAB"
+    },
+    {
+      "radius": 0.6,
+      "sectors": 20,
+      "bricks": "AAAPAAAAPAAAAPAAAAPA"
+    }
+  ]
+}

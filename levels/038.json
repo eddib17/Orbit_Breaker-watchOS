@@ -1,0 +1,40 @@
+{
+  "id": 38,
+  "name": "Lensing",
+  "world": 4,
+  "ballSpeed": 1.21,
+  "paddleArcDeg": 37,
+  "parSeconds": 100,
+  "powerUps": [
+    "WIDE",
+    "MULTI",
+    "SLOW",
+    "SHRINK",
+    "STICKY"
+  ],
+  "dropChance": 0.05,
+  "gravityWells": [
+    {
+      "x": 0,
+      "y": 0,
+      "strength": 0.06
+    }
+  ],
+  "rings": [
+    {
+      "radius": 0.3,
+      "sectors": 10,
+      "bricks": "A.A.A.A.A."
+    },
+    {
+      "radius": 0.46,
+      "sectors": 16,
+      "bricks": "AAB.AAB.AAB.AAB."
+    },
+    {
+      "radius": 0.62,
+      "sectors": 20,
+      "bricks": "AAPAAAPAAAPAAAPAAAPA"
+    }
+  ]
+}

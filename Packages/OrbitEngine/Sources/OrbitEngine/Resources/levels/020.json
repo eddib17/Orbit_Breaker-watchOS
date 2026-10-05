@@ -1,0 +1,53 @@
+{
+  "id": 20,
+  "name": "Gyro",
+  "world": 2,
+  "ballSpeed": 1.06,
+  "paddleArcDeg": 41,
+  "parSeconds": 95,
+  "powerUps": [
+    "MULTI",
+    "WIDE",
+    "LASER",
+    "SLOW"
+  ],
+  "cores": [
+    {
+      "hp": 12,
+      "radius": 0.12,
+      "phases": [
+        {
+          "atHp": 7,
+          "ringSpeedMultiplier": 1.5,
+          "restoreShields": true
+        },
+        {
+          "atHp": 2,
+          "ringSpeedMultiplier": 2.0
+        }
+      ]
+    }
+  ],
+  "rings": [
+    {
+      "radius": 0.28,
+      "sectors": 10,
+      "bricks": "BBBBBBBBBB",
+      "rotationDps": 30,
+      "shield": true
+    },
+    {
+      "radius": 0.42,
+      "sectors": 14,
+      "bricks": "ABABABABABABAB",
+      "rotationDps": -30,
+      "shield": true
+    },
+    {
+      "radius": 0.58,
+      "sectors": 18,
+      "bricks": "AAAPAAAAAAAAPAAAAA",
+      "rotationDps": 10
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 31,
+  "name": "Wormhole",
+  "world": 4,
+  "ballSpeed": 1.12,
+  "paddleArcDeg": 39,
+  "parSeconds": 150,
+  "powerUps": [
+    "WIDE",
+    "MULTI",
+    "SLOW",
+    "SHRINK",
+    "STICKY"
+  ],
+  "dropChance": 0.05,
+  "rings": [
+    {
+      "radius": 0.26,
+      "sectors": 8,
+      "bricks": "AAAAAAAA"
+    },
+    {
+      "radius": 0.4,
+      "sectors": 14,
+      "bricks": "XXXWXXXXXXBXXX"
+    },
+    {
+      "radius": 0.56,
+      "sectors": 18,
+      "bricks": "AAAAAAAAAWAAAAAAAA"
+    }
+  ]
+}

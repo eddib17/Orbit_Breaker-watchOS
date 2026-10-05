@@ -1,0 +1,9 @@
+{
+  "id": 3, "name": "Half Moon", "world": 1,
+  "ballSpeed": 0.92, "paddleArcDeg": 45, "parSeconds": 80,
+  "rings": [
+    { "radius": 0.30, "sectors": 12, "bricks": "AAAAAA......" },
+    { "radius": 0.44, "sectors": 16, "bricks": "AAAAAAAA........" },
+    { "radius": 0.58, "sectors": 20, "bricks": "AAAAAAAAAA.........." }
+  ]
+}

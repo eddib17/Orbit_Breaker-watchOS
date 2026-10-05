@@ -1,0 +1,35 @@
+{
+  "id": 44,
+  "name": "Phase",
+  "world": 5,
+  "ballSpeed": 1.26,
+  "paddleArcDeg": 36,
+  "parSeconds": 90,
+  "powerUps": [
+    "WIDE",
+    "SLOW",
+    "SHIELD",
+    "SHRINK",
+    "FIRE",
+    "STICKY",
+    "LIFE"
+  ],
+  "dropChance": 0.07,
+  "rings": [
+    {
+      "radius": 0.3,
+      "sectors": 12,
+      "bricks": "FFFFFFFFFFFF"
+    },
+    {
+      "radius": 0.45,
+      "sectors": 16,
+      "bricks": "AFAFAFAFAFAFAFAF"
+    },
+    {
+      "radius": 0.6,
+      "sectors": 20,
+      "bricks": "AAFAAFAAFAAFAAFAAFAA"
+    }
+  ]
+}

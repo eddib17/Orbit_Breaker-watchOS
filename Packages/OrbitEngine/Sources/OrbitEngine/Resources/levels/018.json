@@ -1,0 +1,40 @@
+{
+  "id": 18,
+  "name": "Clockwork",
+  "world": 2,
+  "ballSpeed": 1.04,
+  "paddleArcDeg": 42,
+  "parSeconds": 80,
+  "powerUps": [
+    "WIDE",
+    "MULTI",
+    "SLOW",
+    "SHIELD"
+  ],
+  "rings": [
+    {
+      "radius": 0.26,
+      "sectors": 8,
+      "bricks": "BBBBBBBB",
+      "rotationDps": 30
+    },
+    {
+      "radius": 0.4,
+      "sectors": 14,
+      "bricks": "AAAAAAAAAAAAAA",
+      "rotationDps": -18
+    },
+    {
+      "radius": 0.54,
+      "sectors": 18,
+      "bricks": "AAPAAPAAPAAPAAPAAP",
+      "rotationDps": 9
+    },
+    {
+      "radius": 0.66,
+      "sectors": 22,
+      "bricks": "A.A.AAA.A.AAA.A.AAA.A.",
+      "rotationDps": -5
+    }
+  ]
+}

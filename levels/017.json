@@ -1,0 +1,44 @@
+{
+  "id": 17,
+  "name": "Pinwheel",
+  "world": 2,
+  "ballSpeed": 1.04,
+  "paddleArcDeg": 42,
+  "parSeconds": 125,
+  "powerUps": [
+    "WIDE",
+    "MULTI",
+    "SLOW",
+    "SHIELD"
+  ],
+  "rings": [
+    {
+      "radius": 0.26,
+      "sectors": 8,
+      "bricks": "BBBBBBBB",
+      "rotationDps": 18,
+      "offsetDeg": -22.5
+    },
+    {
+      "radius": 0.38,
+      "sectors": 16,
+      "bricks": "A.A.A.A.A.A.A.A.",
+      "rotationDps": 18,
+      "offsetDeg": -11.25
+    },
+    {
+      "radius": 0.5,
+      "sectors": 24,
+      "bricks": "AA.AA.AA.AA.AA.AA.AA.AA.",
+      "rotationDps": 18,
+      "offsetDeg": -7.5
+    },
+    {
+      "radius": 0.62,
+      "sectors": 32,
+      "bricks": "B...B...B...B...B...B...B...B...",
+      "rotationDps": 18,
+      "offsetDeg": -5.625
+    }
+  ]
+}

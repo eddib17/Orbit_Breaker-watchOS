@@ -1,0 +1,32 @@
+{
+  "id": 14,
+  "name": "Gapped Wheel",
+  "world": 2,
+  "ballSpeed": 1.01,
+  "paddleArcDeg": 43,
+  "parSeconds": 95,
+  "powerUps": [
+    "WIDE",
+    "MULTI",
+    "SLOW",
+    "SHIELD"
+  ],
+  "rings": [
+    {
+      "radius": 0.26,
+      "sectors": 8,
+      "bricks": "BBBBBBBB"
+    },
+    {
+      "radius": 0.4,
+      "sectors": 14,
+      "bricks": "BBBBBB.BBBBBB.",
+      "rotationDps": 25
+    },
+    {
+      "radius": 0.56,
+      "sectors": 18,
+      "bricks": "AAAAAAAAPAAAAAAAAA"
+    }
+  ]
+}

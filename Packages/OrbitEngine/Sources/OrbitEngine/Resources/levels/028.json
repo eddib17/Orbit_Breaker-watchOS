@@ -1,0 +1,37 @@
+{
+  "id": 28,
+  "name": "Minefield",
+  "world": 3,
+  "ballSpeed": 1.13,
+  "paddleArcDeg": 40,
+  "parSeconds": 100,
+  "powerUps": [
+    "WIDE",
+    "MULTI",
+    "SHIELD",
+    "SHRINK"
+  ],
+  "dropChance": 0.05,
+  "rings": [
+    {
+      "radius": 0.26,
+      "sectors": 8,
+      "bricks": "AEAXAEAX"
+    },
+    {
+      "radius": 0.38,
+      "sectors": 14,
+      "bricks": "EAAEAAXEAAEAAX"
+    },
+    {
+      "radius": 0.5,
+      "sectors": 18,
+      "bricks": "AAEAAXAAEAAXAAEAAX"
+    },
+    {
+      "radius": 0.62,
+      "sectors": 22,
+      "bricks": "AEAAAEAAAEAAAEAAAEAAAE"
+    }
+  ]
+}

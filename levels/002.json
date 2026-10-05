@@ -1,0 +1,8 @@
+{
+  "id": 2, "name": "Two Rings", "world": 1,
+  "ballSpeed": 0.9, "paddleArcDeg": 46, "parSeconds": 75,
+  "rings": [
+    { "radius": 0.30, "sectors": 10, "bricks": "AAAAAAAAAA" },
+    { "radius": 0.48, "sectors": 16, "bricks": "AAAAAAAAAAAAAAAA", "offsetDeg": 11.25 }
+  ]
+}

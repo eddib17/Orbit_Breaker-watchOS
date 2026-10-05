@@ -1,0 +1,35 @@
+{
+  "id": 26,
+  "name": "Channels",
+  "world": 3,
+  "ballSpeed": 1.11,
+  "paddleArcDeg": 40,
+  "parSeconds": 140,
+  "powerUps": [
+    "WIDE",
+    "MULTI",
+    "SHIELD",
+    "SHRINK"
+  ],
+  "dropChance": 0.05,
+  "rings": [
+    {
+      "radius": 0.3,
+      "sectors": 12,
+      "bricks": "XAAXAAXAAXAA",
+      "offsetDeg": -15
+    },
+    {
+      "radius": 0.44,
+      "sectors": 16,
+      "bricks": "XAAAXAAAXAAAXAAA",
+      "offsetDeg": -11.25
+    },
+    {
+      "radius": 0.58,
+      "sectors": 20,
+      "bricks": "XAAAAXAAAAXAAAAXAAAA",
+      "offsetDeg": -9
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": 32,
+  "name": "Gravity Well",
+  "world": 4,
+  "ballSpeed": 1.16,
+  "paddleArcDeg": 39,
+  "parSeconds": 130,
+  "powerUps": [
+    "WIDE",
+    "MULTI",
+    "SLOW",
+    "SHRINK",
+    "STICKY"
+  ],
+  "dropChance": 0.05,
+  "gravityWells": [
+    {
+      "x": 0,
+      "y": 0,
+      "strength": 0.05
+    }
+  ],
+  "rings": [
+    {
+      "radius": 0.36,
+      "sectors": 12,
+      "bricks": "AAAAAAAAAAAA"
+    },
+    {
+      "radius": 0.5,
+      "sectors": 16,
+      "bricks": "ABABABABABABABAB"
+    },
+    {
+      "radius": 0.64,
+      "sectors": 20,
+      "bricks": "AAAPAAAAPAAAAPAAAAPA"
+    }
+  ]
+}

@@ -5,6 +5,7 @@
 //  Created by Edson Barlow on 10/5/26.
 //
 
+import OrbitEngine
 import SwiftUI
 
 struct ContentView: View {
@@ -13,7 +14,7 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("\((try? LevelLoader.loadAll().count) ?? 0) levels")
         }
         .padding()
     }

@@ -1,0 +1,35 @@
+{
+  "id": 45,
+  "name": "Shadow Puppets",
+  "world": 5,
+  "ballSpeed": 1.27,
+  "paddleArcDeg": 36,
+  "parSeconds": 80,
+  "powerUps": [
+    "WIDE",
+    "SLOW",
+    "SHIELD",
+    "SHRINK",
+    "FIRE",
+    "STICKY",
+    "LIFE"
+  ],
+  "dropChance": 0.07,
+  "rings": [
+    {
+      "radius": 0.28,
+      "sectors": 10,
+      "bricks": "GFGFGFGFGF"
+    },
+    {
+      "radius": 0.42,
+      "sectors": 14,
+      "bricks": "AGAFAGAFAGAFAG"
+    },
+    {
+      "radius": 0.56,
+      "sectors": 18,
+      "bricks": "FAAGAAFAAGAAFAAGAA"
+    }
+  ]
+}

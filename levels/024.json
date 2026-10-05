@@ -1,0 +1,37 @@
+{
+  "id": 24,
+  "name": "Chain Reaction",
+  "world": 3,
+  "ballSpeed": 1.09,
+  "paddleArcDeg": 41,
+  "parSeconds": 45,
+  "powerUps": [
+    "WIDE",
+    "MULTI",
+    "SHIELD",
+    "SHRINK"
+  ],
+  "dropChance": 0.05,
+  "rings": [
+    {
+      "radius": 0.26,
+      "sectors": 8,
+      "bricks": "AAAAAAAA"
+    },
+    {
+      "radius": 0.38,
+      "sectors": 12,
+      "bricks": "EAEAEAEAEAEA"
+    },
+    {
+      "radius": 0.5,
+      "sectors": 16,
+      "bricks": "AEAAAEAAAEAAAEAA"
+    },
+    {
+      "radius": 0.62,
+      "sectors": 20,
+      "bricks": "AAAAEAAAAEAAAAEAAAAE"
+    }
+  ]
+}

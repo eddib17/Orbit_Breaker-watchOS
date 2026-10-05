@@ -1,0 +1,36 @@
+{
+  "id": 43,
+  "name": "Night Shift",
+  "world": 5,
+  "ballSpeed": 1.26,
+  "paddleArcDeg": 36,
+  "parSeconds": 115,
+  "powerUps": [
+    "WIDE",
+    "SLOW",
+    "SHIELD",
+    "SHRINK",
+    "FIRE",
+    "STICKY",
+    "LIFE"
+  ],
+  "dropChance": 0.07,
+  "darkness": 0.5,
+  "rings": [
+    {
+      "radius": 0.3,
+      "sectors": 12,
+      "bricks": "BBBBBBBBBBBB"
+    },
+    {
+      "radius": 0.45,
+      "sectors": 16,
+      "bricks": "AAAAAAAAAAAAAAAA"
+    },
+    {
+      "radius": 0.6,
+      "sectors": 20,
+      "bricks": "AAGAAGAAGAAGAAGAAGAA"
+    }
+  ]
+}

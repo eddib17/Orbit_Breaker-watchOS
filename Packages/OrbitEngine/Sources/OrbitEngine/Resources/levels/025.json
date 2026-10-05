@@ -1,0 +1,37 @@
+{
+  "id": 25,
+  "name": "Bulwark",
+  "world": 3,
+  "ballSpeed": 1.1,
+  "paddleArcDeg": 40,
+  "parSeconds": 190,
+  "powerUps": [
+    "WIDE",
+    "MULTI",
+    "SHIELD",
+    "SHRINK"
+  ],
+  "dropChance": 0.05,
+  "rings": [
+    {
+      "radius": 0.28,
+      "sectors": 10,
+      "bricks": "CCCCCCCCCC"
+    },
+    {
+      "radius": 0.42,
+      "sectors": 14,
+      "bricks": "BCBCBCBCBCBCBC"
+    },
+    {
+      "radius": 0.56,
+      "sectors": 18,
+      "bricks": "AABAABAABAABAABAAB"
+    },
+    {
+      "radius": 0.68,
+      "sectors": 22,
+      "bricks": "AAAAAAAAAAAAAAAAAAAAAA"
+    }
+  ]
+}

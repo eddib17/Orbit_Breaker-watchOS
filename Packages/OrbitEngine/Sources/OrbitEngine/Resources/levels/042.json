@@ -1,0 +1,36 @@
+{
+  "id": 42,
+  "name": "Regrowth",
+  "world": 5,
+  "ballSpeed": 1.25,
+  "paddleArcDeg": 36,
+  "parSeconds": 85,
+  "powerUps": [
+    "WIDE",
+    "SLOW",
+    "SHIELD",
+    "SHRINK",
+    "FIRE",
+    "STICKY",
+    "LIFE"
+  ],
+  "dropChance": 0.07,
+  "regenSeconds": 12,
+  "rings": [
+    {
+      "radius": 0.3,
+      "sectors": 12,
+      "bricks": "RAARAARAARAA"
+    },
+    {
+      "radius": 0.45,
+      "sectors": 16,
+      "bricks": "AARAARAARAARAARA"
+    },
+    {
+      "radius": 0.6,
+      "sectors": 20,
+      "bricks": "AAAAAAAAAAAAAAAAAAAA"
+    }
+  ]
+}

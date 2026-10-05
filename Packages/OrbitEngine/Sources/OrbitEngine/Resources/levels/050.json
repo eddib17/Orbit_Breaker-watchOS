@@ -1,0 +1,54 @@
+{
+  "id": 50,
+  "name": "Eclipse",
+  "world": 5,
+  "ballSpeed": 1.32,
+  "paddleArcDeg": 34,
+  "parSeconds": 65,
+  "powerUps": [
+    "LASER",
+    "FIRE",
+    "SHIELD",
+    "WIDE"
+  ],
+  "dropChance": 0.07,
+  "darkness": 0.4,
+  "cores": [
+    {
+      "hp": 14,
+      "radius": 0.12,
+      "phases": [
+        {
+          "atHp": 9,
+          "restoreShields": true
+        },
+        {
+          "atHp": 4,
+          "ringSpeedMultiplier": 1.5,
+          "phaseShields": true
+        }
+      ]
+    }
+  ],
+  "rings": [
+    {
+      "radius": 0.3,
+      "sectors": 12,
+      "bricks": "FFFFFFFFFFFF",
+      "rotationDps": 10,
+      "shield": true
+    },
+    {
+      "radius": 0.46,
+      "sectors": 16,
+      "bricks": "GGGGGGGGGGGGGGGG",
+      "rotationDps": -10,
+      "shield": true
+    },
+    {
+      "radius": 0.62,
+      "sectors": 20,
+      "bricks": "APAAAAAAAPAAAAAAAAAA"
+    }
+  ]
+}

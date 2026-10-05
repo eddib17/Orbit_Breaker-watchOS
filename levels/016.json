@@ -1,0 +1,42 @@
+{
+  "id": 16,
+  "name": "Tide",
+  "world": 2,
+  "ballSpeed": 1.03,
+  "paddleArcDeg": 42,
+  "parSeconds": 75,
+  "powerUps": [
+    "WIDE",
+    "MULTI",
+    "SLOW",
+    "SHIELD"
+  ],
+  "rings": [
+    {
+      "radius": 0.2,
+      "sectors": 6,
+      "bricks": "...BBB"
+    },
+    {
+      "radius": 0.32,
+      "sectors": 12,
+      "bricks": "AAAAAA......",
+      "rotationDps": 40,
+      "rotationPeriod": 6
+    },
+    {
+      "radius": 0.46,
+      "sectors": 16,
+      "bricks": "AABAABAA........",
+      "rotationDps": -35,
+      "rotationPeriod": 8
+    },
+    {
+      "radius": 0.6,
+      "sectors": 20,
+      "bricks": "AAAAPAAAAA..........",
+      "rotationDps": 30,
+      "rotationPeriod": 5
+    }
+  ]
+}

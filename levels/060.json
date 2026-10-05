@@ -1,0 +1,59 @@
+{
+  "id": 60,
+  "name": "Singularity",
+  "world": 6,
+  "ballSpeed": 1.4,
+  "paddleArcDeg": 32,
+  "parSeconds": 75,
+  "powerUps": [],
+  "dropChance": 0.07,
+  "cores": [
+    {
+      "hp": 20,
+      "radius": 0.12,
+      "phases": [
+        {
+          "atHp": 14,
+          "ringSpeedMultiplier": 1.5,
+          "restoreShields": true
+        },
+        {
+          "atHp": 8,
+          "gravity": 0.06
+        },
+        {
+          "atHp": 3,
+          "ringSpeedMultiplier": 2.0,
+          "phaseShields": true
+        }
+      ]
+    }
+  ],
+  "rings": [
+    {
+      "radius": 0.28,
+      "sectors": 10,
+      "bricks": "CCCCCCCCCC",
+      "rotationDps": 12,
+      "shield": true
+    },
+    {
+      "radius": 0.42,
+      "sectors": 14,
+      "bricks": "BEBEBEBEBEBEBE",
+      "rotationDps": -16,
+      "shield": true
+    },
+    {
+      "radius": 0.56,
+      "sectors": 18,
+      "bricks": "AWAAAAAAAAWAAAAAAA",
+      "rotationDps": 8
+    },
+    {
+      "radius": 0.68,
+      "sectors": 22,
+      "bricks": "APAAAAAGAAAAAPAAAAAGAA"
+    }
+  ]
+}
